@@ -3,7 +3,7 @@
 A data science project aimed at predicting real-estate property prices based on multiple housing features such as location, area, number of rooms, construction status, and amenities.
 The model helps estimate accurate property prices to support buyers, sellers, and real-estate businesses in making data-driven decisions.
 
- Key Features:
+ **Key Features:**
 
 End-to-End ML Pipeline – Includes data cleaning, exploratory data analysis (EDA), feature engineering, and model building.
 
@@ -15,7 +15,7 @@ Web App Integration – Built an interactive Streamlit application for real-time
 
 Reusable Code – Modular Python scripts and notebook for easy retraining on new datasets.
 
-🧠 Tech Stack
+**Tech Stack:**
 
 Languages: Python
 
@@ -25,7 +25,7 @@ Environment: Jupyter Notebook, Streamlit App
 
 Version Control: Git & GitHub
 
-Project Workflow
+**Project Workflow:**
 
 Data Collection & Cleaning – Handling missing values, duplicates, and outliers.
 
