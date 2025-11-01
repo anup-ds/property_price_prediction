@@ -6,6 +6,9 @@ import sys
 
 st.title("House/Property Price Prediction")
 
+#https://miro.medium.com/1*Zr0rsnWzE0A_fqCHfDndMA.jpeg
+st.image("https://miro.medium.com/v2/resize:fit:1100/format:webp/1*Zr0rsnWzE0A_fqCHfDndMA.jpeg", caption="Medical Insurance",width=250)
+
 # input features
 # Let the user pick BHK or RK. If RK is chosen, only allow 1 (default).
 BHK_OR_RK = st.selectbox("Select Property Type:", ["BHK", "RK"])  # line ~9
@@ -74,5 +77,6 @@ if st.button("Predict Price"):
 
     # Make prediction
     predicted_price = model.predict(input_data)
+
 
     st.success(f"The predicted price of the property is: ₹{np.expm1(predicted_price[0]):,.2f} lakhs")
